@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "IstokWeb-Regular";
+    src:
+      url("../fonts/IstokWeb-Regular.woff") format("woff"),
+      url("../fonts/IstokWeb-Regular.woff2") format("woff2");
+
+    font-family: "MsMadi-Regular";
+
+    src:
+    url("../fonts/MsMadi-Regular.woff") format("woff"),
+    url("../fonts/MsMadi-Regular.woff2") format("woff2");
+
+
+    font-family: monospace;
+}
+
+html{
+  cursor: url('../images/cursor.png'), auto; 
+}
+
+  body{
+    background-image: url("../images/patternblue.jpg");
+    
+}
+
+a{
+    cursor: url('../images/cursor.png'), auto; 
+  
+    }
+
+h1{
+    width: 50%;
+    font-family: MsMadi-Regular;
+    font-size: 80px;
+    text-shadow: 1px 2px 3px rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    left:25%;
+    right: 25%;
+    background-image: url("../images/kitty.gif");
+    color: rgb(53, 96, 175);
+    border-style: solid;
+    border-color: rgb(44, 44, 178);
+    border-width: 3px;
+}
+
+p{
+    position: relative;
+    top: -5vh;
+    margin-left: 4vh;
+        font-size: 15px;
+        background-color: white;
+        width: 30vh;
+        border-style: solid;
+        border-color: rgb(53, 38, 187);
+        height: 10vh;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+        border-width: 3px;
+        border-radius: 15px;
+        font-family: monospace;
+    }
+
+ p2{
+        position: relative;
+        left:50vh; 
+        top: -10vh;
+        
+    
+    }
+
+.large-text{
+    position: relative;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+
+.small-text{
+    position: relative;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+    .rectangle {
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 16vh;
+        z-index: -1; 
+    } 
+
+    #yukidraw{
+        position: relative;
+        left: 140vh;
+        top: -48vh;
+        width: 40vh;
+        
+    }
+
+    #binky{
+        position: relative;
+        left: 102vh;
+        top: -28vh;
+        width: 31vh;
+
+    }
+
+    .link:hover{
+        transform: scale(1,05);
+        filter: drop-shadow(10px 5px 5px black );
+        -webkit-filter: drop-shadow(10px 5px 5px black);
+    
+      }
+
+    #yuki{
+        position:fixed;
+        top: 65vh;
+        width: 30vh;
+        animation: flying 3s linear infinite;
+    }
+
+    
+
+    
+@keyframes flying{
+    0%{
+        left:-100%;
+    }
+    100%{ 
+        left: 100%;
+    }
+}
+

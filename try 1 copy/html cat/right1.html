@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  html{
+    cursor: url('../images/hand.png'), auto;
+  }
+
+  h1{
+  font-family: monospace;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.images img{ 
+  max-width: 100%;
+display: inline-block;
+ vertical-align: middle;
+}
+
+
+#banana{
+  width: 34vh;
+  cursor: url('../images/hand.png'), auto; 
+}
+
+#banana:hover{
+  transform: scale(1.2);
+}
+
+#petting{
+  width:65vh;
+  }
+
+#hairband{
+  width: 40vh;
+  cursor: url('../images/hand.png'), auto; 
+}
+
+#hairband:hover{
+  transform: scale(1.2);
+}
+
+#back{
+  width: 10vh;
+  position: absolute;
+  left:10%;
+  top:80%
+}
+
+#back{
+  cursor: url('../images/hand.png'), auto; 
+}
+
+
+</style>
+
+
+
+  <head>
+<title> correct!</title>
+<h1> good! now try to befriend it</h1>
+  </head>
+
+  <body>
+  <div class="images">
+  <a href="./wrong2.html"> <img src="images/banana.png" id="banana"> </a>
+  <img src="images/IMG_5897.png" id="petting">
+  <a href="./right2.html"><img src="images/hairband.png" id="hairband"> </a>
+  </div>
+
+   <a href="./index.html"><img src="images/back.png" id="back"> </a>
+
+  </body>
+
+</html>

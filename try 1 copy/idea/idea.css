@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "bianzhidai";
+  src: url("../fonts/bianzhidai_noBG-Cube.woff") format("woff");
+}
+
+h1{
+  font-family: "bianzhidai";
+  font-size: 10vh
+}
+
+.text{
+  font-family: monospace;
+}

@@ -1,0 +1,67 @@
+body,html{
+  height: 100%;
+}
+
+.header{
+  text-align: center;
+  position: relative;
+  top: 20%;
+
+  animation-name: hi;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.container{display: inline-block}
+
+.appearing-text{
+  position: absolute;
+  top: 15%;
+  font-size: 5em;
+  font-family: monospace;
+  letter-spacing: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+       typing 2s steps(21),
+       cursor .4s step-end infinite alternate;
+
+}
+
+.appearing-text2{
+  display: inline-block;
+  position: absolute;
+  top:0vh;
+  font-family: monospace;
+  letter-spacing:2px;
+  width: 100%;
+  animation:
+       typing2 10s steps(3140),
+       cursor .4s step-end infinite alternate;
+}
+
+@keyframes typing{
+  from{ width: 0;
+}
+}
+
+@keyframes typing2{
+  from{ width: 0;
+}
+}
+
+
+
+@keyframes hi {
+  from{
+    transform: translateX(-300px);
+  }
+
+  to{
+    transform: translateX(0px);
+  }
+
+}
+

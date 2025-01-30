@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "IstokWeb-Regular";
+    src:
+      url("../fonts/IstokWeb-Regular.woff") format("woff"),
+      url("../fonts/IstokWeb-Regular.woff2") format("woff2");
+
+    font-family: "MsMadi-Regular";
+
+    src:
+    url("../fonts/MsMadi-Regular.woff") format("woff"),
+    url("../fonts/MsMadi-Regular.woff2") format("woff2");
+
+
+    font-family: monospace;
+}
+
+html{
+    cursor: url('../images/cursor.png'), auto; 
+  }
+
+body{
+    background-image: url("../images/patternyellow.jpg");
+    height: 100vh;
+    display: grid;
+    margin: 0;
+
+}
+
+
+
+a{
+    cursor: url('../images/cursor.png'), auto; 
+  
+    }
+
+h1{
+    width: 50%;
+    font-family: MsMadi-Regular;
+    font-size: 80px;
+    text-shadow: 1px 2px 3px rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    left:25%;
+    right: 25%;
+    background-image: url('../images/hamstereating.gif');
+    background-position:center right;
+    color: rgb(225, 165, 25);
+    border-style: solid;
+    border-color: rgb(219, 160, 52);
+    border-width: 3px;
+}
+
+p{
+    position: relative;
+    top: -5vh;
+    margin-left: 4vh;
+    font-size: 15px;
+    background-color: white;
+    width: 30vh;
+    border-style: solid;
+    border-color: rgb(233, 176, 43);
+    height: 10vh;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 15px;
+    font-family: monospace;
+    border-width: 3px;
+
+}
+
+p2{
+    position: relative;
+    left:50vh; 
+    top: 0vh;
+
+}
+
+
+.large-text{ 
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.small-text{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.rectangle2{ 
+    background-color: antiquewhite;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    z-index: 1;
+}
+
+.rectangle {
+    width: 50%;
+    height: 125vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 16vh;
+    z-index: -1; 
+} 
+
+#cake{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    left: 140vh;
+    top: 23vh;
+    width: 30vh;
+
+}
+
+#cake figcaption{
+    font-family: monospace;
+   position: relative;
+   top: -2vh
+
+}
+
+#cake img{
+    width:30vh;
+}
+
+
+#caki{
+    width: 50vh;
+    position: relative;
+    top: -2vh;
+}
+
+.link:hover{
+    transform: scale(1,05);
+    filter: drop-shadow(10px 5px 5px black );
+    -webkit-filter: drop-shadow(10px 5px 5px black);
+
+  }
+
+#tea{
+    position: relative;
+    width: 30vh;
+    left: 7vh;
+    top: vh;
+    animation: taart 4s linear infinite;
+    z-index: -1;
+    
+}
+
+@keyframes taart {
+    0% {
+        top :-300%;
+    }
+    100% {
+        top: 150%;
+    }
+}

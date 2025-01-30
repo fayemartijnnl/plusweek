@@ -1,0 +1,61 @@
+
+html{
+  cursor: url('../images/hand.png'), auto; 
+}
+
+h1{
+  font-family: monospace;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+  position: absolute;
+  left:44%;
+  top: 4%
+}
+    
+.hide2{
+  display: none;
+  position: absolute;
+  left: 44%;
+  top: 4%;
+}
+
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
+.allcats{
+  margin-left: 1.5%;
+  position: fixed;
+}
+
+.allcats:hover::after{
+  content: "watch out";
+  position: absolute;
+  top: 100%; /* Position the text below the image */
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  padding: 5px; /* Optional: padding for better appearance */
+  border-radius: 3px; /* Optional: rounded corners */
+  white-space: nowrap; /* Prevent text from wrapping */
+  z-index: 1;
+}
+
+.cutecat{
+  width: 200px;
+  position: relative;
+}
+
+.cutecat:hover{
+  content: url(images/angrycat.png);
+  cursor: url('../images/hand.png'), auto; 
+}
+
+
